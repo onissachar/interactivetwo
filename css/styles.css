@@ -1,0 +1,60 @@
+body{
+	text-align: center;
+	font-family: Gill Sans;
+	font-weight: lighter;
+	font-size:18px;
+	line-height: 30px;
+	margin-top: 90px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+h1 {font-size: 40px;
+	color: 	gray;
+	letter-spacing: 1.5px;
+	line-height: 70px;
+	font-family: Gill Sans;
+	font-weight: lighter;
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #1d0edd;
+}
+
+/* visited link */
+a:visited {
+    color: #1d0edd;
+}
+
+/* mouse over link */
+a:hover {
+   
+    background: #1d0edd;
+
+}
+
+/* selected link */
+a:active {
+    color: #1d0edd;
+}
+
