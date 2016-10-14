@@ -1,0 +1,10 @@
+#body {
+	background: black
+}
+#square {
+	width: 100px;
+	height: 100px;
+	background:black;
+	border-color: white;
+
+}
