@@ -1,10 +1,855 @@
-#body {
-	background: black
+
+body {
+	background: black;
 }
+
 #square {
-	width: 100px;
-	height: 100px;
-	background:black;
-	border-color: white;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-30px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 3s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+
+#square1 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-65px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 2.5s;
+  animation-delay:.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 600px);
+  }
+}
+
+#square2 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-117.5px;
+  left:73px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1.5s;
+  animation-delay: 3.5s;
+  -webkit-animation-fill-mode: forwards;
 
 }
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+#square3 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-29.6px;
+  left: 173px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square4 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-82px;
+  left: 273px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 1s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square5 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-64px;
+  left: 173px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 2s;
+  animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square6 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-84px;
+  left: 108px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 1.5s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square7 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-115px;
+  left: 208px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 1.5s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square8 {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  top:-190px;
+  left: 108px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 2.5s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square9 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-184px;
+  left: 8px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 1.5s;
+  animation-delay: 3.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square10 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-150px;
+  left: 274px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 1.5s;
+  animation-delay: 3.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#square11 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top:-64px;
+  left: 342px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  animation: fall 0.5s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 700px);
+  }
+}
+
+#rectangle2 {
+  height: 70px;
+  width: 20px;
+  position: absolute;
+  top:-150px;
+  left:8px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1.5s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+}
+
+
+
+
+#rectangle4 {
+  height: 71.5px;
+  width: 20px;
+  position: absolute;
+  top:-81.5px;
+  left:208px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1.5s;
+  animation-delay: .5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+}
+
+#rectangle5 {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top:-116.5px;
+  left:243px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+
+#rectangle6 {
+  height: 71.5px;
+  width: 20px;
+  position: absolute;
+  top:-150px;
+  left:173px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1.5s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+}
+
+
+#rectangle7 {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top:-118px;
+  left:108px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+
+#rectangle8 {
+  height: 18px;
+  width: 50px;
+  position: absolute;
+  top:-150px;
+  left:108px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 2s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+
+#rectangle9 {
+  height: 71.5px;
+  width: 20px;
+  position: absolute;
+  top:-81.5px;
+  left:308px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1s;
+  animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+}
+
+#rectangle10 {
+  height: 20px;
+  width: 52px;
+  position: absolute;
+  top:-150px;
+  left:208px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+
+#rectangle11 {
+  height: 55px;
+  width: 20px;
+  position: absolute;
+  top:-150px;
+  left:308px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1s;
+  animation-delay: 2.5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+}
+
+#rectangle12 {
+  height: 16px;
+  width: 53px;
+  position: absolute;
+  top:-214.5px;
+  left:8px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1.5s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+
+#weird2{
+  width: 60px;
+  height: 98px;
+  background: white;
+  position: absolute;
+  top:-216px;
+  left:43px;
+  -webkit-clip-path: polygon(52% 1%, 100% 1%, 100% 97%, 0 97%, 0 32%, 52% 32%);
+  clip-path: polygon(52% 1%, 100% 1%, 100% 100%, 0 100%, 0 30%, 52% 30%);
+  animation: fall 2s;
+  animation-delay: 3.5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 640px);
+  }
+}
+
+#weird3{
+  width: 60px;
+  height: 88px;
+  background: white;
+  position: absolute;
+  top:-85px;
+  left:108px;
+  -webkit-clip-path: polygon(56% 1%, 100% 1%, 100% 97%, 0 97%, 0 40%, 56% 40%);
+  clip-path: polygon(52% 1%, 100% 1%, 100% 100%, 0 100%, 0 36.8%, 52% 36.8%);
+  animation: fall 2s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 640px);
+  }
+}
+
+
+#weird4{
+  position: absolute;
+  top:-82px;
+  left:243px;
+  width: 60px;
+  height: 85px;
+  background: white;
+  -webkit-clip-path: polygon(0 0, 43% 0, 43% 40%, 100% 40%, 100% 96.5%, 0 96.5%);
+  clip-path: polygon0 0, 43% 0, 43% 40%, 100% 40%, 100% 96.5%, 0 96.5%);
+animation: fall 3s;
+animation-delay: 0s;
+-webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 640px);
+  }
+}
+
+
+
+
+
+#rectangle1 {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top:-30px;
+  left:43px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 2.5s;
+  animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+
+
+}
+
+#rectangle13 {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top:-30px;
+  left:342px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  animation: fall 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  30% {
+    transform: translate(0px, 700px);
+  }
+}
+
+
+
+
+#weird{
+	position: absolute;
+	top:-117px;
+	left:43px;
+	width: 60px;
+	height: 85px;
+	background: white;
+	-webkit-clip-path: polygon(0 0, 43% 0, 43% 40%, 100% 40%, 100% 96.5%, 0 96.5%);
+	clip-path: polygon0 0, 43% 0, 43% 40%, 100% 40%, 100% 96.5%, 0 96.5%);
+animation: fall 3s;
+animation-delay: 2s;
+-webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 640px);
+  }
+}
+
+
+#weird5{
+  position: absolute;
+  top: -246px;
+  left: 109px;
+  width: 69px;
+  height:90px;
+  background: white;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 54% 100%, 54% 58%, 0 58%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 53% 100%, 53% 60%, 0 60%);
+animation: fall 1.5s;
+animation-delay: 4s;
+-webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 640px);
+  }
+}
+
+#weird6{
+  position: absolute;
+ top: -246px;
+  left: 182px;
+  width: 69px;
+  height:94px;
+  background: white;
+  -webkit-clip-path: polygon(0 0, 43% 0, 43% 40%, 100% 40%, 100% 96.5%, 0 96.5%);
+  clip-path: polygon0 0, 43% 0, 43% 40%, 100% 40%, 100% 96.5%, 0 96.5%);
+animation: fall 3s;
+animation-delay: 2s;
+-webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(0px, 640px);
+  }
+}
+
+
+
