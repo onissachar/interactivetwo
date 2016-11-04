@@ -77,7 +77,7 @@ width: 230px;
 height:190px;
 background:white;
 position: absolute;
-top:600px;
+top:0px;
 left: 1040px;
 opacity: 0;
 z-index: 2;
@@ -123,6 +123,56 @@ z-index: 2;
 opacity: 1;
 background: black;
 }
+
+.box7{ 
+width: 230px;
+height:190px;
+background:white;
+position: absolute;
+top:800px;
+left: 260px;
+opacity: 0;
+z-index: 2;
+
+}
+
+.box7:hover { 
+opacity: 1;
+background: black;
+}
+
+.box8:hover { 
+opacity: 1;
+background: black;
+}
+.box8{ 
+width: 230px;
+height:190px;
+background:white;
+position: absolute;
+top:800px;
+left: 520px;
+opacity: 0;
+z-index: 2;
+
+}
+
+.box9:hover { 
+opacity: 1;
+background: black;
+}
+.box9{ 
+width: 230px;
+height:190px;
+background:white;
+position: absolute;
+top:800px;
+left: 780px;
+opacity: 0;
+z-index: 2;
+
+}
+
 
 
 
