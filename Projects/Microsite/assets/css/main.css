@@ -1,0 +1,155 @@
+body {
+	background-color: #ededed;
+
+}
+
+#container {
+
+	width: 480px;
+	padding: 70px 30px;
+	margin: auto;
+	font-weight: 300;
+}
+
+img {
+   cursor: url(assets/img/cursor.png), auto;
+}
+
+#s1crop{
+	float: left;
+}
+
+#s1full{
+	z-index: 1;
+	position: absolute;
+	top: -208;
+	left: -106;
+	opacity: 50;
+}
+#i1crop{
+	float: left;
+}
+
+#s2crop{
+	float: left;
+}
+
+#tercrop{
+	float: left;
+}
+
+#c1crop{
+	float: left;
+}
+
+#orcrop{
+	float: left;
+}
+
+#i2crop{
+	float: left;
+}
+
+#t1crop{
+	float: left;
+}
+
+#a1crop{
+	float: left;
+}
+
+#spacer{
+	float: left;
+}
+
+#k1crop{
+	float: left;
+}
+
+#encrop{
+	float: left;
+}
+
+#t2crop{
+	float: left;
+}
+
+#a2crop{
+	float: left;
+}
+
+#c2crop{
+	float: left;
+}
+
+#t3crop{
+	float: left;
+}
+
+#ivcrop{
+	float: left;
+}
+
+#iscrop{
+	float: left;
+}
+
+#m1crop{
+	float: left;
+}
+
+#a3crop{
+	float: left;
+}
+
+#ndcrop{
+	float: left;
+}
+
+#p1crop{
+	float: left;
+}
+
+#l1crop{
+	float: left;
+}
+
+#aycrop{
+	float: left;
+}
+
+#f1crop{
+	float: left;
+}
+
+#u1crop{
+	float: left;
+}
+
+#l2crop{
+	float: left;
+}
+
+#n1crop{
+	float: left;
+}
+
+#escrop{
+	float: left;
+}
+
+#scrop{
+	float: left;
+}
+
+#button{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}
+
+#gap {
+	width: 470px;
+	height: 30px;
+	float: left;
+}
