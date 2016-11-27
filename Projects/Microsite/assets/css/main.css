@@ -24,7 +24,7 @@ img {
 	position: absolute;
 	top: -208;
 	left: -106;
-	opacity: 50;
+	opacity: 0.5;
 }
 #i1crop{
 	float: left;
