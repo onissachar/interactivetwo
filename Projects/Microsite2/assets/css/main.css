@@ -219,8 +219,8 @@ img {cursor: url('../img/cursor.png'), auto;}
 	top: 255.2;
 	left: 596;
 	opacity: 1;
-	z-index: 2;
-	opacity: .5;
+	z-index: -2;
+	display: none;
 	}
 
 .t2crop{
@@ -507,7 +507,7 @@ src: url("assets/Plume-Free-Brush-Font.otf") format("opentype");
     width:820px;
     position:relative;
     left:-1400px;
-    top:-800px;   
+    top:-1000px;   
 
 }
 .open{
