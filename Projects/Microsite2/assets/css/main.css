@@ -30,7 +30,7 @@ img {cursor: url('../img/cursor.png'), auto;}
 .s1full{
 	position: absolute;
 	top: -157.5;
-	left: -26;
+	left: -28;
 	opacity: 1;
 	z-index: -2;
 	display: none;
@@ -49,7 +49,7 @@ img {cursor: url('../img/cursor.png'), auto;}
 .i1full{
 	position: absolute;
 	top: 128;
-	left: 325.5;
+	left: 323.5;
 	opacity: 1;
 	z-index: -2;
 	display: none;
@@ -67,7 +67,7 @@ img {cursor: url('../img/cursor.png'), auto;}
 .s2full{
 	position: absolute;
 	top: -154;
-	left: 178;
+	left: 176;
 	opacity: 1;
 	z-index: -2;
 	display: none;
@@ -85,7 +85,7 @@ img {cursor: url('../img/cursor.png'), auto;}
 .terfull{
 	position: absolute;
 	top: 58;
-	left: 363;
+	left: 361;
 	opacity: 1;
 	z-index: -2;
 	display: none;
