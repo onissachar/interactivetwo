@@ -502,12 +502,12 @@ src: url("assets/Plume-Free-Brush-Font.otf") format("opentype");
 	font-family: "flood-std";
 	color: white;
     background:#4377bc;
-    padding:180px;
+    padding:220px;
     height:440px;
     width:820px;
     position:relative;
     left:-1400px;
-    top:-800px;   
+    top:-700px;   
 
 }
 .open{
