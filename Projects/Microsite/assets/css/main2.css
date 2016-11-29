@@ -1,0 +1,85 @@
+body {
+	background-color: #ededed;
+}
+
+#text {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 480px;
+	background: #ededed;
+}
+
+#image {
+	padding-top: 70px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	background: #ededed;
+}	
+
+img {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button{
+	cursor: url('../img/cursor.png'), auto;
+	position: absolute;
+	bottom: 10px;
+	right: 25px;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+button:focus {outline:0;}
+
+#back{
+	cursor: url('../img/cursor.png'), auto;
+	position: absolute;
+	bottom: 5px;
+	right: 50px;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+
+@font-face {
+	font-family: 'plume';
+	src: url("assets/Plume-Free-Brush-Font.otf") format("opentype");
+}
+
+
+#slider{
+	text-align: center;
+	font-family: "flood-std";
+	color: white;
+	background:#4377bc;
+	padding:180px;
+	height:440px;
+	width:820px;
+	position:relative;
+	left:-1400px;
+	top:-80px;   
+
+
+}
+.open{
+	left:-10px !important;
+
+}
+
+
+.transition{
+
+	-webkit-transition: left 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	-moz-transition: left 0.3s ease-out;  /* Firefox 4-15 */
+	-o-transition: left 0.3s ease-out;  /* Opera 10.50–12.00 */
+	transition: left 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+}

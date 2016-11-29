@@ -1,7 +1,7 @@
 body {
 	background-color: #ededed;
 }
-
+img {cursor: url('../img/cursor.png'), auto;}
 .container {
 
 	width: 480px;
@@ -493,7 +493,7 @@ body {
 }
 
 button{
-	cursor: url('../img/cursor.png'), auto;
+
 	position: absolute;
 	bottom: 10px;
 	right: 25px;
@@ -510,7 +510,7 @@ src: url("assets/Plume-Free-Brush-Font.otf") format("opentype");
 
 #slider{
 	text-align: center;
-	font-family: 'plume';
+	font-family: "flood-std";
 	color: white;
     background:#4377bc;
     padding:180px;
