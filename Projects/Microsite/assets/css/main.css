@@ -1,32 +1,45 @@
 body {
-	background-color: #ededed;
-}
+	background-color: #dbd3cc;
+	}
 img {cursor: url('../img/cursor.png'), auto;}
 .container {
 
-	width: 480px;
+	width: 680px;
 	padding: 70px 30px;
 	margin: auto;
 	font-weight: 300;
 	z-index: 2;
 }
 
+.container2 {
+
+	width: 680px;
+	padding: 70px 30px;
+	margin: auto;
+	font-weight: 300;
+
+}
+
+
 
 
 .s1crop{
-	float: left;
+	position: absolute;
+	left:180;
+	top:60;
 	opacity:1;
-	z-index: 2;
 }
 
 .s1crop:hover{
-	float: left;
+	position: absolute;
+	left:180;
+	top:60;
 }
 
 .s1full{
 	position: absolute;
-	top: -207;
-	left: -106;
+	left:-326;
+	top:-225;
 	opacity: 1;
 	z-index: -2;
 	display: none;
@@ -34,54 +47,70 @@ img {cursor: url('../img/cursor.png'), auto;}
 
 
 .i1crop{
-	float: left;
+	position: absolute;
+	left:312;
+	top:60;
 	opacity:1;
 }
 
 .i1crop:hover{
-	float: left;
+	position: absolute;
+	left:312;
+	top:60;
 }
 
 .i1full{
 	position: absolute;
-	top: 78;
-	left: 246;
+	top: 60;
+	left: 26;
 	opacity: 1;
 	z-index: -2;
 	display: none;
 }
 
 #s2crop{
-	float: left;
+	position: absolute;
+	left:380;
+	top:60;
+	opacity:1;
 }
 
 .s2crop:hover{
-	float: left;
+	position: absolute;
+	left:380;
+	top:60;
 }
 
 
 .s2full{
 	position: absolute;
-	top: -204;
-	left: 98;
+	top: -220;
+	left: -120;
 	opacity: 1;
 	z-index: -2;
 	display: none;
 }
 
 .tercrop{
-	float: left;
+	position: absolute;
+	left: 500;
+	top:60;
+	opacity: 1;
 }
 
 .tercrop:hover{
-	float: left;
+	position: absolute;
+	left: 500;
+	top:60;
 }
+
+
 
 
 .terfull{
 	position: absolute;
-	top: 8;
-	left: 283;
+	top: -9.6;
+	left: 59.6;
 	opacity: 1;
 	z-index: -2;
 	display: none;
@@ -89,222 +118,272 @@ img {cursor: url('../img/cursor.png'), auto;}
 
 
 .c1crop{
-	float: left;
+	position: absolute;
+	left: 760;
+	top:140;
+	opacity: 1;
 }
 
 .c1crop:hover{
-	float: left;
+	position: absolute;
+	left: 760;
+	top:140;
+
 }
 
 .c1full{
 	position: absolute;
-	top: 205;
-	left: 310;
+	top: 66;
+	left: 643;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .orcrop{
-	float: left;
+	position: absolute;
+	left: 796;
+	top:140;
 	opacity: 1;
 }
 
 .orcrop:hover{
-	float: left;
+	position: absolute;
+	left: 796;
+	top:140;
+	
 }
 
 .orfull{
 	position: absolute;
-	top: 13;
-	left: 284.5;
+	top: -176.5;
+	left:612;
 	opacity: 1;
 	z-index: -2;
-	display: none;
-	}
+	display:none;
+}
 
 
 .i2crop{
-	float: left;
+	position: absolute;
+	left: 898;
+	top:140;
+	opacity: 1;
 }
 
 .i2crop:hover{
-	float: left;
+	position: absolute;
+	left: 898;
+	top:140;
 }
 
 .i2full{
 	position: absolute;
-	top: 55;
-	left: 304;
+	top: -120;
+	left: 636;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .t1crop{
-	float: left;
+	position: absolute;
+	left: 950;
+	top:140;
+	opacity: 1;
 }
 
 
 .t1crop:hover{
-	float: left;
+	position: absolute;
+	left: 950;
+	top:140;
 }
 
 .t1full{
 	position: absolute;
-	top: 262;
-	left: 533;
+	top: 140;
+	left: 922.5;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .a1crop{
-	float: left;
+	position: absolute;
+	left: 990;
+	top:140;
 	opacity: 1;
 }
 
 .a1crop:hover{
-	float: left;
+	position: absolute;
+	left: 990;
+	top:140;
 }
 
 .a1full{
 	position: absolute;
-	top: 205;
-	left: 474;
+	top: 68;
+	left: 849;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
-
-#spacer{
-	float: left;
 }
 
+
 .k1crop{
-	float: left;
+	position: absolute;
+	left: 760;
+	top:218;
 	opacity: 1;
 }
 
 .k1crop:hover{
-	float: left;
+	position: absolute;
+	left: 760;
+	top:218;
 }
 
 
 .k1full{
 	position: absolute;
-	top: 157;
-	left: 472;
+	top: 53;
+	left: 434;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .encrop{
-	float: left;
+	position: absolute;
+	left: 830;
+	top:218;
 	opacity: 1;
 }
 
 .encrop:hover{
-	float: left;
+	position: absolute;
+	left: 830;
+	top:218;
 }
 
 .enfull{
 	position: absolute;
-	top: 255.2;
-	left: 596;
+	top: 208;
+	left: 628;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .t2crop{
-	float: left;
+	position: absolute;
+	left: 995;
+	top:218;
 	opacity: 1;
 }
 
 
 .t2crop:hover{
-	float: left;
+	position: absolute;
+	left: 995;
+	top:218;
 }
 
 .t2full{
 	position: absolute;
-	top: 120;
-	left: 602.5;
+	top: -3.8;
+	left: 636;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .a2crop{
-	float: left;
+	position: absolute;
+	left: 180;
+	top:300;
 	opacity: 1;
 }
 
 
 .a2crop:hover{
-	float: left;
+	position: absolute;
+	left: 180;
+	top:300;
 }
 
 .a2full{
 	position: absolute;
-	top: 352.5;
-	left: 203;
+	top: 300;
+	left: -17;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .c2crop{
-	float: left;
+	position: absolute;
+	left: 224;
+	top:300;
 	opacity: 1;
 }
 
 
 .c2crop:hover{
-	float: left;
+	position: absolute;
+	left: 224;
+	top:300;
 }
 
 .c2full{
 	position: absolute;
-	top: 344;
-	left: 344;
+	top: 291;
+	left: 122;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .t3crop{
-	float: left;
+	position: absolute;
+	left: 257;
+	top:300;
 	opacity: 1;
 }
 
 
 .t3crop:hover{
-	float: left;
+	position: absolute;
+	left: 257;
+	top:300;
 }
 
 .t3full{
 	position: absolute;
-	top: 328.49;
-	left: 298.2;
+	top: 275.4;
+	left: 76.5;
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .ivcrop{
-	float: left;
+	position: absolute;
+	left: 296;
+	top:300;
 	opacity: 1;
 }
 
 
 .ivcrop:hover{
-	float: left;
+	position: absolute;
+	left: 296;
+	top:300;
 }
 
 .ivfull{
@@ -314,16 +393,20 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .iscrop{
-	float: left;
+	position: absolute;
+	left: 361;
+	top:300;
 	opacity: 1;
 }
 
 
 .iscrop:hover{
-	float: left;
+	position: absolute;
+	left: 361;
+	top:300;
 }
 
 .isfull{
@@ -333,17 +416,21 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .m1crop{
-	float: left;
+	position: absolute;
+	left: 408;
+	top:300;
 	opacity: 1;
 }
 
 
 .m1crop:hover{
-	float: left;
+	position: absolute;
+	left: 408;
+	top:300;
 }
 
 .m1full{
@@ -353,17 +440,21 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .a3crop{
-	float: left;
+	position: absolute;
+	left: 510;
+	top:360;
 	opacity: 1;
 }
 
 
 .a3crop:hover{
-	float: left;
+	position: absolute;
+	left: 510;
+	top:360;
 }
 
 .a3full{
@@ -373,18 +464,24 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .ndcrop{
-	float: left;
+	position: absolute;
+	left: 620;
+	top:360;
 	opacity: 1;
 }
 
 
-.mdcrop:hover{
-	float: left;
+.ndcrop:hover{
+	position: absolute;
+	left: 620;
+	top:360;
 }
+
+
 
 .ndfull{
 	position: absolute;
@@ -393,17 +490,22 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 
 .p1crop{
-	float: left;
+	position: absolute;
+	left: 450;
+	top:500;
 	opacity: 1;
 }
 
 
 .p1crop:hover{
-	float: left;
+	position: absolute;
+	left: 450;
+	top:500;
+	
 }
 
 .p1full{
@@ -413,16 +515,20 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .l1crop{
-	float: left;
+	position: absolute;
+	left: 486;
+	top:500;
 	opacity: 1;
 }
 
 
 .l1crop:hover{
-	float: left;
+	position: absolute;
+	left: 486;
+	top:500;
 }
 
 .l1full{
@@ -432,16 +538,20 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .aycrop{
-	float: left;
+	position: absolute;
+	left: 524;
+	top:500;
 	opacity: 1;
 }
 
 
 .aycrop:hover{
-	float: left;
+	position: absolute;
+	left: 524;
+	top:500;
 }
 
 .ayfull{
@@ -451,16 +561,21 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
+}
 
 .f1crop{
-	float: left;
+	position: absolute;
+	left:634;
+	top:500;
 	opacity: 1;
 }
 
 
 .f1crop:hover{
-	float: left;
+	position: absolute;
+	left:634;
+	top:500;
+	
 }
 
 .f1full{
@@ -470,26 +585,70 @@ img {cursor: url('../img/cursor.png'), auto;}
 	opacity: 1;
 	z-index: -2;
 	display: none;
-	}
-
-#u1crop{
-	float: left;
 }
 
-#l2crop{
-	float: left;
+.u1crop{
+	position: absolute;
+	left:656;
+	top:500;
+	opacity: 1;
 }
 
-#n1crop{
-	float: left;
+.u1crop:hover{
+	position: absolute;
+	left:656;
+	top:500;
 }
 
-#escrop{
-	float: left;
+.l2crop{
+	position: absolute;
+	left:718;
+	top:500;
+	opacity: 1;
+	
+}
+.l2crop:hover{
+	position: absolute;
+	left:718;
+	top:500;
+	
+}
+.n1crop{
+	position: absolute;
+	left:740;
+	top:500;
+	opacity: 1;
 }
 
-#scrop{
-	float: left;
+.n1crop:hover{
+	position: absolute;
+	left:740;
+	top:500;
+
+}
+.escrop{
+	position: absolute;
+	left:740;
+	top:500;
+	opacity: 1;
+}
+
+.escrop:hover{
+	position: absolute;
+	left:740;
+	top:500;
+}
+
+.s3crop{
+	position: absolute;
+	left:824;
+	top:500;
+	opacity: 1;
+}
+.s3crop:hover{
+	position: absolute;
+	left:824;
+	top:500;
 }
 
 button{
@@ -498,45 +657,46 @@ button{
 	bottom: 10px;
 	right: 25px;
 	padding: 0;
-border: none;
-background: none;
+	border: none;
+	background: none;
 }
 button:focus {outline:0;}
 @font-face {
-font-family: 'plume';
-src: url("assets/Plume-Free-Brush-Font.otf") format("opentype");
+	font-family: 'plume';
+	src: url("assets/Plume-Free-Brush-Font.otf") format("opentype");
 }
+h1 {font-size: 50;}
+.h2 {font-family: helvetica;
+	font-weight: normal;
+font-size:22;}
 
 
 #slider{
 	text-align: center;
 	font-family: "flood-std";
 	color: white;
-    background:#4377bc;
-    padding:180px;
-    height:440px;
-    width:820px;
-    position:relative;
-    left:-1400px;
-    top:-600px;   
+	background:rgb(32,28,200);
+	padding:180px;
+	height:440px;
+	width:820px;
+	position:relative;
+	left:-1700px;
+	top:-240px;   
 
 }
 .open{
-    left:-10px !important;
-    
+	left:-10px !important;
+
 }
 
 
 .transition{
-    
-  -webkit-transition: left 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
-     -moz-transition: left 0.3s ease-out;  /* Firefox 4-15 */
-       -o-transition: left 0.3s ease-out;  /* Opera 10.50–12.00 */
-          transition: left 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+	-webkit-transition: left 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	-moz-transition: left 0.3s ease-out;  /* Firefox 4-15 */
+	-o-transition: left 0.3s ease-out;  /* Opera 10.50–12.00 */
+	transition: left 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 
 }
-#gap {
-	width: 470px;
-	height: 30px;
-	float: left;
-}
+
+

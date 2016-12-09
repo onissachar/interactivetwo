@@ -3,6 +3,7 @@ $('document').ready(function(){
 
 
 
+
 $('.s1crop').hover(function() {
 $('.s1full').show();
 $('.s1full').css("display", "inline");
@@ -11,7 +12,6 @@ $('.container').css("opacity", "0")
 $('.s1full').hide();
 $('.container').css("opacity", "1")
 });
-
 
 $('.i1crop').hover(function() {
 $('.i1full').show();
@@ -39,6 +39,7 @@ $('.container').css("opacity", "0")
 $('.terfull').hide();
 $('.container').css("opacity", "1")
 });
+
 
 $('.c1crop').hover(function() {
 $('.c1full').show();
@@ -104,6 +105,7 @@ $('.enfull').hide();
 $('.container').css("opacity", "1")
 });
 
+
 $('.t2crop').hover(function() {
 $('.t2full').show();
 $('.t2full').css("display", "inline");
@@ -140,90 +142,12 @@ $('.t3full').hide();
 $('.container').css("opacity", "1")
 });
 
-$('.ivcrop').hover(function() {
-$('.ivfull').show();
-$('.ivfull').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.ivfull').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.iscrop').hover(function() {
-$('.isfull').show();
-$('.isfull').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.isfull').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.m1crop').hover(function() {
-$('.m1full').show();
-$('.m1full').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.m1full').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.a3crop').hover(function() {
-$('.a3full').show();
-$('.a3full').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.a3full').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.ndcrop').hover(function() {
-$('.ndfull').show();
-$('.ndfull').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.ndfull').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.p1crop').hover(function() {
-$('.p1full').show();
-$('.p1full').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.p1full').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.l1crop').hover(function() {
-$('.l1full').show();
-$('.l1full').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.l1full').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.aycrop').hover(function() {
-$('.ayfull').show();
-$('.ayfull').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.ayfull').hide();
-$('.container').css("opacity", "1")
-});
-
-$('.f1crop').hover(function() {
-$('.f1full').show();
-$('.f1full').css("display", "inline");
-$('.container').css("opacity", "0")
-}, function() {
-$('.f1full').hide();
-$('.container').css("opacity", "1")
-});
 
 $('button').on('click', function(){
 $('#slider').toggleClass('open');
 
+
 })
+
 
 });

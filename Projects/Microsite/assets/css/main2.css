@@ -1,11 +1,11 @@
 body {
-	background-color: #ededed;
+	background-color: black;
 }
 
 #image {
 	padding-top: 20px;
 margin: auto;
-	background: #ededed;
+	background: black;
 }	
 
 img {
@@ -19,14 +19,20 @@ p {
 	text-align: center;
 font-family: helvetica;
 font-size: 18;
+color: white;
 }
 
  .h2 {
  	color: gray;
  	font-size: 12;
  }
+h1 {font-size: 50;}
+ .h3 {
+ 	font-family: helvetica;
+ 	font-weight: normal;
+ 	font-size: 22;
+ }
 button{
-	cursor: url('../img/cursor.png'), auto;
 	position: absolute;
 	bottom: 10px;
 	right: 25px;
@@ -37,15 +43,8 @@ button{
 
 button:focus {outline:0;}
 
-#back{
-	cursor: url('../img/cursor.png'), auto;
-	position: absolute;
-	bottom: 5px;
-	right: 50px;
-	padding: 0;
-	border: none;
-	background: none;
-}
+#s1 {cursor: url('../img/back.png'), auto;}
+
 
 
 @font-face {
@@ -58,14 +57,13 @@ button:focus {outline:0;}
 	text-align: center;
 	font-family: "flood-std";
 	color: white;
-	background:#4377bc;
+	background:rgb(32,28,200);
 	padding:160px;
 	height:440px;
 	width:860px;
 	position:relative;
 	left:-1400px;
-	top:-600;  
-
+	top:-640;  
 
 }
 .open{

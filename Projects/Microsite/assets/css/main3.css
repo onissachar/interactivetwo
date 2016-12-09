@@ -1,11 +1,11 @@
 body {
-	background-color: #ededed;
+	background-color: black;
 }
 
 #image {
 	padding-top: 20px;
 margin: auto;
-	background: #ededed;
+	background: black;
 }	
 
 img {
@@ -19,6 +19,7 @@ p {
 	text-align: center;
 font-family: helvetica;
 font-size: 18;
+color: white;
 }
 
  .h2 {
@@ -26,7 +27,6 @@ font-size: 18;
  	font-size: 12;
  }
 button{
-	cursor: url('../img/cursor.png'), auto;
 	position: absolute;
 	bottom: 10px;
 	right: 25px;
@@ -37,16 +37,7 @@ button{
 
 button:focus {outline:0;}
 
-#back{
-	cursor: url('../img/cursor.png'), auto;
-	position: absolute;
-	bottom: 5px;
-	right: 50px;
-	padding: 0;
-	border: none;
-	background: none;
-}
-
+#i1 {cursor: url('../img/back.png'), auto;}
 
 @font-face {
 	font-family: 'plume';
@@ -58,7 +49,7 @@ button:focus {outline:0;}
 	text-align: center;
 	font-family: "flood-std";
 	color: white;
-	background:#4377bc;
+	background:rgb(32,28,200);
 	padding:160px;
 	height:440px;
 	width:860px;
