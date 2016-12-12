@@ -142,6 +142,24 @@ $('.t3full').hide();
 $('.container').css("opacity", "1")
 });
 
+$('.a3crop').hover(function() {
+$('.a3full').show();
+$('.a3full').css("display", "inline");
+$('.container').css("opacity", "0")
+}, function() {
+$('.a3full').hide();
+$('.container').css("opacity", "1")
+});
+
+$('.p1crop').hover(function() {
+$('.p1full').show();
+$('.p1full').css("display", "inline");
+$('.container').css("opacity", "0")
+}, function() {
+$('.p1full').hide();
+$('.container').css("opacity", "1")
+});
+
 
 $('button').on('click', function(){
 $('#slider').toggleClass('open');

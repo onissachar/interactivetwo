@@ -459,8 +459,8 @@ img {cursor: url('../img/cursor.png'), auto;}
 
 .a3full{
 	position: absolute;
-	top: 230;
-	left:434.35;
+	top: 180;
+	left:140;
 	opacity: 1;
 	z-index: -2;
 	display: none;
@@ -502,16 +502,16 @@ img {cursor: url('../img/cursor.png'), auto;}
 
 
 .p1crop:hover{
-	position: absolute;
-	left: 450;
+	left:450;
+	top:500;
 	top:500;
 	
 }
 
 .p1full{
 	position: absolute;
-	top: 421;
-	left:400;
+	top: 500;
+	left:450;
 	opacity: 1;
 	z-index: -2;
 	display: none;
