@@ -615,8 +615,8 @@ img {cursor: url('../img/cursor.png'), auto;}
 }
 .n1crop{
 	position: absolute;
-	left:740;
-	top:500;
+	left:10;
+	top:10;
 	opacity: 1;
 }
 
