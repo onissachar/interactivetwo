@@ -615,9 +615,10 @@ img {cursor: url('../img/cursor.png'), auto;}
 }
 .n1crop{
 	position: absolute;
-	left:10;
-	top:10;
+	left:740;
+	top:500;
 	opacity: 1;
+	z-index: 4;
 }
 
 .n1crop:hover{
@@ -628,26 +629,26 @@ img {cursor: url('../img/cursor.png'), auto;}
 }
 .escrop{
 	position: absolute;
-	left:740;
+	left:792;
 	top:500;
 	opacity: 1;
 }
 
 .escrop:hover{
 	position: absolute;
-	left:740;
+	left:792;
 	top:500;
 }
 
 .s3crop{
 	position: absolute;
-	left:824;
+	left:874;
 	top:500;
 	opacity: 1;
 }
 .s3crop:hover{
 	position: absolute;
-	left:824;
+	left:874;
 	top:500;
 }
 
